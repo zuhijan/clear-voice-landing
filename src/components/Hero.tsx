@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-accent/5">
+    <header className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-accent/5">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
@@ -55,8 +55,11 @@ const Hero = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
               <img 
                 src={tutorHero} 
-                alt="Sarah Chen - English Tutor" 
+                alt="Sarah Chen, CELTA certified English tutor with 10 years experience teaching online English lessons including IELTS preparation and business English" 
                 className="w-full h-auto object-cover"
+                loading="eager"
+                width="600"
+                height="800"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
@@ -73,7 +76,7 @@ const Hero = () => {
           <div className="w-1.5 h-3 bg-primary rounded-full" />
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

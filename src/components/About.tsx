@@ -21,12 +21,12 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-card">
+    <section id="about" className="py-20 bg-card" aria-labelledby="about-heading">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-              About Me
+            <h2 id="about-heading" className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
+              About Sarah Chen - Your English Tutor
             </h2>
             <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
           </div>

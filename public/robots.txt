@@ -12,3 +12,6 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /api/
+
+Sitemap: https://14dd8e2d-e852-4c09-92ab-fc5f5b659d44.lovableproject.com/sitemap.xml
