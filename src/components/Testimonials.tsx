@@ -6,19 +6,19 @@ const Testimonials = () => {
     {
       name: "Maria González",
       role: "Business Professional",
-      text: "Sarah helped me prepare for my IELTS exam and I scored 8.0! Her teaching style is so natural and encouraging. I went from being nervous to speak English to feeling completely confident in just 3 months.",
+      text: "Demetrius helped me prepare for my IELTS exam and I scored 8.0! Her teaching style is so natural and encouraging. I went from being nervous to speak English to feeling completely confident in just 3 months.",
       rating: 5,
     },
     {
       name: "Takeshi Yamamoto",
       role: "Software Engineer",
-      text: "I needed to improve my English for work presentations. Sarah's lessons were practical and focused exactly on what I needed. Now I can present confidently to international clients!",
+      text: "I needed to improve my English for work presentations. Demetrius lessons were practical and focused exactly on what I needed. Now I can present confidently to international clients!",
       rating: 5,
     },
     {
       name: "Ana Silva",
       role: "University Student",
-      text: "The best English teacher I've ever had! Sarah makes every lesson fun and relevant to my interests. My speaking fluency improved dramatically, and I actually look forward to our lessons.",
+      text: "The best English teacher I've ever had! Demetrius makes every lesson fun and relevant to my interests. My speaking fluency improved dramatically, and I actually look forward to our lessons.",
       rating: 5,
     },
   ];

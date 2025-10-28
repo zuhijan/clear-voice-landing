@@ -34,7 +34,7 @@ const About = () => {
           <div className="space-y-8">
             <div className="animate-fade-in">
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Hi! I'm Sarah Chen, and I've been teaching English for over a decade. 
+                Hi! I'm Demetrius, and I've been teaching English for over a decade. 
                 My passion is helping students not just learn English, but truly <span className="text-primary font-semibold">feel confident</span> using it in real life.
               </p>
             </div>
