@@ -7,7 +7,7 @@ const Footer = () => {
     { icon: Facebook, href: "https://www.facebook.com/aghanim.inc", label: "Facebook" },
     { icon: Instagram, href: "#", label: "Instagram" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:sarah@englishwithsarah.com", label: "Email" },
+    { icon: Mail, href: "mailto:demetrius@englishwithdemetrius.com", label: "Email" },
   ];
 
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Top section */}
           <div className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Sarah Chen English Tutor
+              Demetrius English Tutor
             </h3>
             <p className="text-background/80 max-w-xl mx-auto">
               Helping students speak English confidently and naturally through personalized, engaging lessons.
@@ -41,7 +41,7 @@ const Footer = () => {
           {/* Bottom section */}
           <div className="border-t border-background/20 pt-8 text-center">
             <p className="text-background/80 text-sm">
-              © {currentYear} Sarah Chen. All rights reserved.
+              © {currentYear} Demetrius. All rights reserved.
             </p>
             <p className="text-background/60 text-xs mt-2">
               Professional English tutoring services • CELTA & TESOL Certified

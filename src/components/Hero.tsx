@@ -17,7 +17,7 @@ const Hero = () => {
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground">
                 Learn English with{" "}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  Sarah Chen
+                  Demetrius
                 </span>
               </h1>
               <p className="text-2xl md:text-3xl text-muted-foreground font-light">
@@ -55,7 +55,7 @@ const Hero = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
               <img 
                 src={tutorHero} 
-                alt="Sarah Chen, CELTA certified English tutor with 10 years experience teaching online English lessons including IELTS preparation and business English" 
+                alt="Demetrius, CELTA certified English tutor with 10 years experience teaching online English lessons including IELTS preparation and business English" 
                 className="w-full h-auto object-cover"
                 loading="eager"
                 width="600"
