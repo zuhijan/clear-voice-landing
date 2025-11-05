@@ -1,8 +1,42 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+import { useState } from "react";
 
 const Pricing = () => {
+  const [clickCounter, setClickCounter] = useState({'card1': 0, 'card2': 0, 'card3': 0, 'card4': 0});
+  // const [clickCounter, setClickCounter] = useState(0);
+  
+  const clickHandler = (cardNumber) => { 
+    setClickCounter((current) => {
+      if (cardNumber == 0) {
+        return {
+          'card1': current.card1 += 1,
+          ...current
+        }
+      } else if (cardNumber == 1) {
+         return {
+          'card1': current.card1,
+          'card2': current.card2 += 1,
+          ...current
+        }
+      } else if (cardNumber == 2) {
+         return {
+          ...current,
+          'card3': current.card3 += 1,
+          'card4': current.card4
+        }
+      } else if (cardNumber == 3) {
+         return {
+          ...current,
+          'card4': current.card4 += 1
+        }
+      }
+    })
+  };
+
+  console.log('clickCounter:', clickCounter);
+
   const lessons = [
     {
       title: "Individual Lessons",
@@ -58,8 +92,9 @@ const Pricing = () => {
     },
   ];
 
-  const scrollToContact = () => {
+  const scrollToContact = (number) => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    clickHandler(number);
   };
 
   return (
@@ -114,7 +149,7 @@ const Pricing = () => {
                 </ul>
 
                 <Button 
-                  onClick={scrollToContact}
+                  onClick={() => scrollToContact(index)}
                   className={`w-full ${
                     lesson.highlight 
                       ? 'bg-primary hover:bg-primary/90' 
