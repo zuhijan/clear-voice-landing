@@ -5,7 +5,6 @@ import { useState } from "react";
 
 const Pricing = () => {
   const [clickCounter, setClickCounter] = useState({'card1': 0, 'card2': 0, 'card3': 0, 'card4': 0});
-  // const [clickCounter, setClickCounter] = useState(0);
   
   const clickHandler = (cardNumber) => { 
     setClickCounter((current) => {
